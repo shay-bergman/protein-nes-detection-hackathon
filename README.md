@@ -2,6 +2,8 @@
 
 *Finding CRM1-dependent nuclear export signals in protein sequences with ESM-2 embeddings and a neural-network classifier.*
 
+> Built as a hackathon project — a time-boxed sprint from problem statement to a working, evaluated classifier.
+
 ## Overview
 
 Many proteins are exported from the nucleus by the receptor CRM1, which
