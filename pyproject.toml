@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "protein-nes-detection"
+version = "1.0.0"
+description = "Detecting nuclear export signals in protein sequences with ESM-2 embeddings and neural networks."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Shay Bergman" }]
+dependencies = [
+    "numpy==2.3.0",
+    "pandas==2.3.0",
+    "scipy==1.15.3",
+    "scikit-learn==1.7.0",
+    "matplotlib==3.10.3",
+    "torch==2.7.1",
+    "fair-esm==2.0.0",
+    "ruptures==1.1.9",
+    "biopython==1.85",
+    "tqdm==4.67.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88

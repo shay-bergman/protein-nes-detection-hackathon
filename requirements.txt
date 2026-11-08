@@ -1,0 +1,15 @@
+# Core scientific stack
+numpy==2.3.0
+pandas==2.3.0
+scipy==1.15.3
+scikit-learn==1.7.0
+matplotlib==3.10.3
+
+# Deep learning and protein language models
+torch==2.7.1
+fair-esm==2.0.0
+
+# Change-point segmentation, structure parsing and progress bars
+ruptures==1.1.9
+biopython==1.85
+tqdm==4.67.1
