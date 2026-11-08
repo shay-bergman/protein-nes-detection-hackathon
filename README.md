@@ -1,4 +1,4 @@
-# Protein NES Detection
+# Protein NES Detection — Hackathon Project
 
 *Finding CRM1-dependent nuclear export signals in protein sequences with ESM-2 embeddings and a neural-network classifier.*
 
